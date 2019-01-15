@@ -1,0 +1,159 @@
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title Bailey's Solitaire App
+        style(type="text/css").
+            .navbar-anchor{
+                color: white;
+            }
+
+            .form-row {
+                margin: 10px;
+            }
+
+            .submit-button {
+                padding: 0px;
+            }
+
+            .card {
+                width:25%;
+                height: auto;
+                margin: 0 -2px;
+                border: none;
+                display: inline;
+            }
+
+            .card-container{
+                position: relative;
+            }
+
+            .top-card {
+                position: absolute;
+            }
+
+            #A_of_H{
+                top: 37.5%;
+                right: 37.5%;
+            }
+
+            .form-container{
+                padding-bottom: 10px;
+                width: 50%;
+                margin-top: 5%;
+                /*border: 5px solid rgb(52,58,64);*/
+                /*border-radius: 15px;*/
+            }
+
+            form button {
+                width: 100%;
+            }
+
+            .title-block {
+                position: absolute;
+                margin-left: 10%;
+                margin-top: 32%;
+            }
+
+            /*.landing {*/
+                /*background-image: url("../images/white-ghost.png");*/
+            /*}*/
+
+            .title {
+                font-size: 60px;
+            }
+
+            .title-anchor{
+                color: black;
+                background-color: rgb(221,221,221);
+                margin-top: 2px;
+                margin-bottom: 2px;
+            }
+
+            .title-anchor:hover{
+                color: rgb(221,221,221);
+                background-color: black;
+            }
+
+            .label {
+                text-align: right;
+            }
+
+            .body-container{
+                margin: 15px;
+            }
+
+            .custom-row {
+                margin-top:5px;
+                margin-bottom: 5px;
+            }
+
+            /*button:hover{*/
+                /*-webkit-filter: invert(50%);*/
+            /*}*/
+
+            .label-header{
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            body {
+                margin: 0;
+            }
+
+        //    @font-face {
+        //        font-family: 'Roboto';
+        //        font-style: normal;
+        //        font-weight: 300;
+        //        src: url(/fonts/Roboto-Light-webfont.woff2) format('woff2');
+        //    }
+        //
+        //    @font-face {
+        //        font-family: 'Roboto';
+        //        font-style: normal;
+        //        font-weight: 400;
+        //        src: url(/fonts/Roboto-Normal-webfont.woff2) format('woff2');
+        //    }
+        //
+        //    @font-face {
+        //        font-family: 'Roboto';
+        //        font-style: normal;
+        //        font-weight: 700;
+        //        src: url(/fonts/Roboto-Bold-webfont.woff2) format('woff2');
+        //    }
+        //
+        //    @font-face {
+        //        font-family: 'Ubuntu';
+        //        font-style: normal;
+        //        font-weight: 400;
+        //        src: url(/fonts/Ubuntu-Light-webfont.woff2) format('woff2');
+        //    }
+        //
+        //    @font-face {
+        //        font-family: 'Ubuntu';
+        //        font-style: normal;
+        //        font-weight: 700;
+        //        src: url(/fonts/Ubuntu-Normal-webfont.woff2) format('woff2');
+        //    }
+        //style(type="text/css").
+        //    html {
+        //        font-family: 'Roboto', sans-serif;
+        //        font-weight: 300;
+        //    }
+        //
+        //    body {
+        //        margin: 0;
+        //        padding: 0;
+        //    }
+        //
+        //    #mainDiv {
+        //        width: 100%;
+        //    }
+    body
+        div#mainDiv
+        script.
+          window.__PRELOADED_STATE__ = !{state}
+        script(src="/js/vendor.js")
+        script(src="/js/main.js")
